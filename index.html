@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="deckstop-nav">
+      <div class="logo">I'm Sha</div>
+      <div>
+        <ul class="nav-link">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">I'm Shathusjan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="ToggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu_link">
+          <li><a href="#about" onclick="ToggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="ToggleMenu()">Experience</a></li>
+          <li><a href="#poject" onclick="ToggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="ToggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Sha's profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text_p1">Hello I'm</p>
+        <h1 class="title">Sivaneswaran Shathusjan</h1>
+        <p class="section__text_p2">Product Manager</p>
+        <div class="btn-conatiner">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn page"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/shathusjansivaneswaran/')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My github page"
+            class="icon"
+            onclick="window.open('https://github.com/Shathusjan')"
+          />
+          <img
+            src="./assets/dribbble.png"
+            alt="My dribbble page"
+            class="icon"
+            onclick="window.open('https://dribbble.com/Shathu93')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text_p1">Get to know me</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-conatiner">
+              <img
+                src="./assets/experience.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                6+ years <br />
+                Product Management
+              </p>
+            </div>
+            <div class="details-conatiner">
+              <img
+                src="./assets/education.png"
+                alt="Education Icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>MSc Big Data Analyticst</p>
+              <p>BSc (Hons) ISBM</p>
+            </div>
+          </div>
+          <div class="text-container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sunt
+            beatae harum a omnis. Fuga minima ratione maiores delectus
+            asperiores doloremque odit aliquid optio iusto a reprehenderit
+            necessitatibus nemo, sit quibusdam nihil. Obcaecati laudantium ut,
+            incidunt tenetur nihil corporis. Iste earum temporibus quis non
+            repellendus deleniti id consectetur et architecto!
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Go down"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text_p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skill-details-containers">
+        <div class="about-containers">
+          <div class="details-conatiner">
+            <h1 class="skill-sub-title">Product Management</h1>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jira</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scrum</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-conatiner">
+            <h1 class="skill-sub-title">Technical Skill</h1>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jira</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Check mark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scrum</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Go down"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skill-details-containers">
+        <div class="about-containers">
+          <div class="details-conatiner color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 01"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Project One</h2>
+            <div class="button-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Figma
+              </button>
+            </div>
+          </div>
+          <div class="details-conatiner color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 02"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Project Two</h2>
+            <div class="button-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Figma
+              </button>
+            </div>
+          </div>
+          <div class="details-conatiner color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 03"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Project Three</h2>
+            <div class="button-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Figma
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:sivaneswaranshathusjan@gmail.com"
+              >sivaneswaranshathusjan@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/shathusjansivaneswaran/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-link-container">
+          <ul class="nav-link">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sivaneswaran Shathusjan. All right reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
