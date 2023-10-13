@@ -209,6 +209,10 @@ section {
     
 }
 
+.dribble-icon {
+    height: 2rem;
+}
+
 /* Buttond */
 
 .btn-conatiner {
@@ -301,7 +305,7 @@ section {
 
 /*Skill Container*/
 
-#experience {
+#skills {
     position: relative;
 }
 
@@ -331,7 +335,6 @@ section {
 article {
     display: flex;
     gap: 0.5rem;
-    justify-content: space-around;
     width: 10rem;
 }
 
