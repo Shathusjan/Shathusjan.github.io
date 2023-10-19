@@ -59,10 +59,6 @@
         margin-bottom: 3rem;
     }
 
-    .section__pic-container {
-        margin-bottom: 2rem;
-    }
-
     #profile {
         height: auto;
         margin-bottom: 3rem;
@@ -103,9 +99,73 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    #profile {
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    .about-containers, .contact-info {
+        flex-wrap: wrap;
+    }
+
+    #experience, .skill-details-containers {
+        margin-top: 2rem;
+    }
+
+    #profile, .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 2%;
+        display: block;
+    }
+
+    #contact {
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .article-container {
+        gap: 2rem;
+    }
+
+    .wrapper {
+        grid-auto-columns: 100%;
+    }
+
+    .project-title {
+        font-size: 25px;
+    }
+
+    .project-description {
+        font-size: 20px;
+    }
+
+    .email-icon {
+        display: none;
+    }
+
+    .email-id {
+        display: none;
+    }
+}
 
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     .email-icon {
         display: none;
     }
@@ -137,7 +197,21 @@
     .article-container {
         justify-content:flex-start;
     }
-}
+
+    .section__pic-container {
+        margin-bottom: 2rem;
+        height: 41vh;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .section__pic-container .img {
+        margin-bottom: 2rem;
+        height: 40vh;
+        justify-content: center;
+        width: fit-content;
+    }
+} */
 
 
 
